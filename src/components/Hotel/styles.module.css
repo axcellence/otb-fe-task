@@ -1,0 +1,114 @@
+.wrapper {
+  /* width: 800px; */
+  /* margin: 0 auto; */
+  color: var(--grey);
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.innerWrapper {
+  display: flex;
+}
+
+.details {
+  flex: 1;
+  padding: 1.5rem 1rem;
+  font-size: 14px;
+}
+
+.details > * + * {
+  margin-top: 0.5rem;
+}
+
+.overview {
+  /* flex: 1; */
+  opacity: 0;
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 500ms, opacity 500ms;
+}
+
+.overview > div {
+  overflow: hidden;
+}
+.overview > div > div {
+  padding: 1rem;
+}
+
+.overview[data-open] {
+  opacity: 1;
+  grid-template-rows: 1fr;
+}
+
+.overview h3 {
+  color: var(--blue);
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 0 0.75rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--blue);
+  margin: 0;
+}
+
+.bookNow {
+  color: var(--blue);
+  background-color: var(--yellow);
+  padding: 1em 3em;
+  font-weight: 700;
+  border-radius: 0.25em;
+  width: 100%;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  transition: background-color 200ms;
+}
+.bookNow:hover {
+  background-color: var(--yellow-dark);
+}
+
+.price {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.hotelImageWrapper {
+  position: relative;
+  display: flex;
+  margin: 0;
+}
+
+.hotelImageWrapper img {
+  display: block ;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+  max-width: 100%;
+}
+
+.hotelImageWrapper button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.25rem 1rem;
+  color: var(--blue);
+  background-color: white;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hotelImageWrapper button svg {
+  transform: rotate(-90deg);
+  transition: transform 200ms;
+}
+
+.hotelImageWrapper button[data-active] svg {
+  transform: rotate(0deg);
+}

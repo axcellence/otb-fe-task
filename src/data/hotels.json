@@ -1,0 +1,67 @@
+{
+  "data": [
+    {
+      "image": "./hotel-image-1.png",
+      "title": "Iberostar Grand Salome",
+      "overview": "The Iberostar Grand Salome has an exceptional location in the south of Tenerife, overlooking the Atlantic Ocean. It is situated between the Golf del Sur and the Amarillo Golf courses, and is an ideal hotel for families, couples and groups who are looking for a holiday full of sport, sun and sea.",
+      "location": "Costa Adeje, Tenerife",
+      "starRating": 5,
+      "dates": {
+        "start": "2019-07-03",
+        "end": "2019-07-10"
+      },
+      "departingAirport": {
+        "name": "East Midlands",
+        "code": "EMA"
+      },
+      "price": 1136.5,
+      "attendees": {
+        "adults": 2,
+        "children": 2,
+        "infants": 1
+      }
+    },
+    {
+      "image": "./hotel-image-2.png",
+      "title": "Aguamarina Golf Hotel",
+      "overview": "The Aguamarina Golf Hotel is located in the Golf del Sur resort, just 150 metres from the sea and 1.5km from the resort centre. The hotel is surrounded by the Amarilla Golf and Golf del Sur golf courses, and is an ideal hotel for families, couples and groups who are looking for a holiday full of sport, sun and sea.",
+      "location": "Costa Adeje, Tenerife",
+      "starRating": 4,
+      "dates": {
+        "start": "2019-05-27",
+        "end": "2019-06-03"
+      },
+      "departingAirport": {
+        "name": "Liverpool",
+        "code": "LPL"
+      },
+      "price": 696.8,
+      "attendees": {
+        "adults": 2,
+        "children": 1,
+        "infants": 0
+      }
+    },
+    {
+      "image": "./hotel-image-3.png",
+      "title": "Las Piramides Resort",
+      "overview": "The Las Piramides Resort is located in the Golf del Sur resort, just 150 metres from the sea and 1.5km from the resort centre. The hotel is surrounded by the Amarilla Golf and Golf del Sur golf courses, and is an ideal hotel for families, couples and groups who are looking for a holiday full of sport, sun and sea.",
+      "location": "Costa Adeje, Tenerife",
+      "starRating": 3,
+      "dates": {
+        "start": "2019-07-03",
+        "end": "2019-07-10"
+      },
+      "departingAirport": {
+        "name": "Manchester",
+        "code": "MAN"
+      },
+      "price": 499.99,
+      "attendees": {
+        "adults": 2,
+        "children": 2,
+        "infants": 0
+      }
+    }
+  ]
+}
