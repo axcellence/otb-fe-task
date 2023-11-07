@@ -30,6 +30,7 @@ Vite is super quick, `create-react-app` essentially defunct and requires said no
 
 ## Caveats / notes
 
+- I have put the `<QueryClientProvider />` inside the `<Results />` component as the requirements states _"Imagine this will be a component added to a large website"_ and that is the entry point for my component structure. However, typically I would put this in the `App.tsx` to wrap the whole application.
 - I don't like the style approach with CSS modules. I much prefer Tailwind CSS. I think TW is a better direction for styling overall. It's enables faster prototyping, less mental overhead, less files, smaller CSS bundles and more.
 - I've not written tests every single part of the app but I've got 10 tests in place including testing functions and UI.
 - "Attendees" don't make sense as they're all different but in product the would all be the same as per state passed from the previous view. However, I've matched the design file.
